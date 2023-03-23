@@ -1,0 +1,54 @@
+h1 { 
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4rem;
+    margin-top:0;
+    text-align: center;
+    
+}
+body {
+    color: rgb(19, 18, 18);
+    background-color: rgb(185, 58, 58);
+   font-family: 'Segoe UI', Tahoma,Verdana, sans-serif;
+}
+.container { 
+    margin: 1px;
+    max-width: 480px; 
+    width: 100%;
+    background:transparent;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+ul li:last-child {
+    margin-bottom: 150px;
+}
+ul li {
+    display: flex;
+    justify-content:flex-start;
+    background-color: white;
+    margin-bottom: 3rem;
+    border-radius: 20px;
+
+}
+ul li div img {
+    height: 145px;
+    width: 145px;
+    border: 4px solid black;
+    border-radius:100%;
+    margin:20%;
+    object-fit: fill;
+}
+.game-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    width: 300px;
+}
+.game-info {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 2,55rem;
+}
